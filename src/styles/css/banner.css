@@ -1,0 +1,30 @@
+#banner {
+  margin-top: 80px;
+  background: #364d79;
+}
+
+.contentStyle {
+  height: "160px";
+  color: "#fff";
+  line-height: "160px";
+  text-align: "center";
+  background: "#364d79";
+}
+
+#banner img {
+  margin: 0 -10px;
+}
+
+#banner ul li button {
+  background-color: #d8d8d8;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+}
+
+body {
+  background-color: white;
+}
+/*# sourceMappingURL=banner.css.map */

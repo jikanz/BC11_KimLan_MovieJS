@@ -1,0 +1,8 @@
+// library css (bootstrap,...)
+* {
+  font-family: "SF Regular";
+}
+
+// components
+@import "./components/button";
+@import "~bootstrap/scss/bootstrap";

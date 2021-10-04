@@ -1,0 +1,56 @@
+.cinema__logo {
+  margin: 10px auto;
+}
+.cinema__logo button {
+  border: none;
+  background-color: white;
+}
+.cinema__logo button img {
+  opacity: 0.5;
+}
+.cinema__logo button img:hover {
+  opacity: 1;
+}
+.border__logo {
+  border: 1px solid #ebebec;
+}
+.border__diaChi {
+  border-top: 1px solid #ebebec;
+  border-bottom: 1px solid #ebebec;
+  border-right: 1px solid #ebebec;
+}
+.cinema__diaChi {
+  margin: 10px auto;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.cinema__diaChi:hover {
+  opacity: 1;
+}
+.border__suatChieu {
+  border-top: 1px solid #ebebec;
+  border-bottom: 1px solid #ebebec;
+  border-right: 1px solid #ebebec;
+}
+.cinema__suatChieu {
+  margin: 10px auto;
+}
+.top__background {
+  max-height: 120px;
+  height: 120px;
+}
+.top__background img {
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+// .cinema__logo button::after {
+//   content: "";
+//   position: absolute;
+//   bottom: 0;
+//   left: 50%;
+//   width: calc(100% - 40px);
+//   transform: translateX(-50%);
+//   border-bottom: 1px solid #fff;
+//   border-color: rgba(238, 238, 238, 0.88);
+// }

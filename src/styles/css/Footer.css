@@ -1,0 +1,46 @@
+.maxWidth {
+  max-width: 940px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.hr {
+  border-top: 1px solid #4a4a4a;
+}
+
+#footer {
+  background-color: #222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #949494;
+}
+
+#footer .iconFooter {
+  background-color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 2px;
+}
+
+#footer .iconApp {
+  background: 0 0;
+  height: 30px;
+  width: auto;
+  margin: 5px;
+}
+
+#footer .App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer .infoFooter span {
+  display: block;
+  line-height: 1.8;
+  color: #949494;
+  font-size: 12px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=Footer.css.map */
