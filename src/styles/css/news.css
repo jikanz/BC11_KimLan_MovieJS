@@ -1,0 +1,39 @@
+.button__Show__News {
+  width: 940px;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.newx__row {
+  width: 940px;
+  margin: 20px auto;
+}
+
+.news__img {
+  float: left;
+  margin-right: 7px;
+}
+
+.news__child {
+  margin-bottom: 15%;
+}
+
+.news__button button {
+  font-size: 14px;
+  color: #949494;
+  font-family: "SF Regular";
+  border: 1px solid #949494;
+  border-radius: 4px;
+  text-align: center;
+  background: 0 0;
+  padding: 7px 25px;
+  transition: all 0.2s;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  display: block;
+}
+/*# sourceMappingURL=news.css.map */

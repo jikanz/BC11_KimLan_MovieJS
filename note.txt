@@ -1,0 +1,48 @@
+Cấu trúc project
+- src
+  - components:
+    + Chứa các common component như: Header, Button, Card,...
+    + common component: các component không xử lý logic như gọi API, redux,... Chủ yếu nhận vào props và render ra UI
+
+  - modules:
+    + Chứa các component cấu tạo thành 1 page hoàn chỉnh như HomePage, MovieDetail, Login hoặc 1 features hoàn chỉnh
+    + Các component sẽ chứa các logic như fetch data, kết nối redux,...
+    + Các component này thường sẽ import các common component để sử dụng
+    + Tuy nhiên UI và logic của các component này khá lớn, nên ta có thể tách nhỏ ra thành nhiều component con
+
+    - module-name (HomePage)
+      - components: Chứa các component chỉ dùng riêng cho 1 module
+      - pages: Chứa các page trong 1 module
+      - reducers: Chứa các reducers phục vụ cho riêng 1 module
+
+  - hooks:
+    + Chứa các custom hooks mình tự viết
+
+  - services:
+    + Cấu hình phương thức gọi API (axios)
+    + Chứa các tác vụ liên quan đến gọi API
+
+  - utils:
+    + Chứa các common javascript function dùng chung cho ứng dụng
+
+  - styles:
+    + chứa các file css/scss
+
+
+
+Ref: Sự khác biệt giữ useRef và useState
+  - Cả useRef và useState đều dùng để lưu trữ dữ liệu
+  - useRef: khi giá trị current của ref thay đổi component không bị render lại
+  - useState: khi value thay đổi component bị render lại
+
+
+
+
+
+
+
+
+
+
+
+

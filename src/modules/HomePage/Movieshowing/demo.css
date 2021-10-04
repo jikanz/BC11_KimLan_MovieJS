@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tabitem {
+  border: 2px solid #fff;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 15px;
+  background-color: #280680;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabitem--inactive {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+
+.tabitem__icon {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 22px;
+}
+
+.tabitem__title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.content {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 22px;
+  width: 940px;
+}
+.item__phim {
+  min-height: 450px;
+}
+.slick-initialized .slick-slide {
+  padding: 0px 10px;
+}
+span {
+  font-size: 14px;
+}
+p {
+  font-size: 13px;
+}
+.flim {
+  height: 318px;
+}
+.flimContent {
+  max-height: 42px;
+  font-family: "SF Medium";
+  font-size: 16px;
+  color: #000;
+  line-height: 22px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 80px;
+  text-align: left;
+}
+.thoiLuong {
+  text-align: left;
+  padding: 20px 0;
+}
+.ant-carousel .slick-dots-bottom {
+  margin: auto;
+  bottom: 30px;
+}
+.ant-carousel .slick-dots-bottom .slick-active {
+  width: 12px !important;
+  height: 12px !important;
+  padding: 0;
+  border-radius: 50%;
+}
+.h2:nth-child(1).active ~ .buttonShowing {
+  color: #fb4226;
+}
+.h2:nth-child(2).active ~ .buttonShowing {
+  color: #fb4226;
+}
+.buttonShowing {
+  border: none;
+}
+.buttonShowing2 {
+  border: none;
+  background-color: white;
+  transition: all 0.5s;
+}
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+.wrapper .slick-prev:before {
+  content: "<";
+  color: #c7c7c7;
+  font-size: 50px;
+}
+.wrapper .slick-prev {
+  top: 45%;
+  left: -5%;
+}
+.wrapper .slick-next:before {
+  content: ">";
+  color: #c7c7c7;
+  font-size: 50px;
+}
+.wrapper .slick-next {
+  top: 45%;
+  left: 102%;
+}
+.buttonShowing {
+  background-color: white;
+}
+.ageType {
+  font-size: 14px;
+  background-color: #fb4226;
+  border-radius: 4px;
+  padding: 0 5px;
+  color: #fff;
+  min-width: 33px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 8px;
+}
